@@ -10,11 +10,11 @@ Make sure you have Python installed on your system. You can download and install
  
 ### 2. Install Tesseract OCR
 
-Download and install Tesseract OCR from the official GitHub repository. Tesseract is an open-source OCR engine maintained by Google. Follow the installation instructions provided for your operating system.
+Download and install Tesseract OCR from the official [GitHub repository](https://github.com/UB-Mannheim/tesseract/wiki) . Tesseract is an open-source OCR engine maintained by Google. Follow the installation instructions provided for your operating system.
 
 After installing Tesseract, you need to define the path to the Tesseract executable in your Python code. Modify the following line in your code to reflect the correct path:
 
-https://github.com/UB-Mannheim/tesseract/wiki
+
 
 ```
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'  # your path may be different
