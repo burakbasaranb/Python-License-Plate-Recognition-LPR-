@@ -6,15 +6,13 @@ This Python project aims to recognize license plates from images or live camera 
 
 ### 1. Install Python
 
-Make sure you have Python installed on your system. You can download and install Python from the official Python website. This project is compatible with Python 3.x.
+Make sure you have Python installed on your system. You can download and install Python from the official [Python website](https://www.python.org/downloads/). This project is compatible with Python 3.x.
  
 ### 2. Install Tesseract OCR
 
 Download and install Tesseract OCR from the official [GitHub repository](https://github.com/UB-Mannheim/tesseract/wiki) . Tesseract is an open-source OCR engine maintained by Google. Follow the installation instructions provided for your operating system.
 
 After installing Tesseract, you need to define the path to the Tesseract executable in your Python code. Modify the following line in your code to reflect the correct path:
-
-
 
 ```
 pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'  # your path may be different
